@@ -1,6 +1,5 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { Sequelize } from 'sequelize';
 import { ensureDatabaseExists } from './database/database.utils';
 
 async function bootstrap() {
